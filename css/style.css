@@ -1,0 +1,85 @@
+@font-face {
+    font-family:'FontAwesome';
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/fonts/fontawesome-webfont.eot');
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/fonts/fontawesome-webfont.woff2') format('woff2'),
+         url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/fonts/fontawesome-webfont.woff') format('woff'),
+         url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/fonts/fontawesome-webfont.svg') format('svg'),
+         url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/fonts/fontawesome-webfont.ttf') format('truetype');
+
+}
+body{
+  font-family: 'Balsamiq Sans', cursive;
+    width: 100%;
+    color:#fff;
+    margin: 0px;
+}
+#body{
+    width: 110%;
+}
+table{
+    width: 75% !important;
+    color: #fca8ff !important;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+td{
+    width: 50%;
+}
+tr{
+    transition: 0.3s;
+}
+tr:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+#d0{
+    background: url(../images/italy.jpg) no-repeat center center/cover;
+}
+#d1{
+    background: url(../images/france.jpg) no-repeat center center/cover;
+}
+#d2{
+    background: url(../images/switzerland.jpg) no-repeat center center/cover;
+}
+#d3{
+    background: url(../images/hungary.jpg) no-repeat center center/cover;
+}
+#d4{
+    background: url(../images/romania.jpg) no-repeat center center/cover;
+}
+#d5{
+    background: url(../images/japan.jpg) no-repeat center center/cover;
+}
+#d6{
+    background: url(../images/afghanistan.jpg) no-repeat center center/cover;
+}
+#d7{
+    background: url(../images/india.jpg) no-repeat center center/cover;
+}
+#d8{
+    background: url(../images/brazilia.jpg) no-repeat center center/cover;
+}
+#d9{
+    background: url(../images/canada.jpg) no-repeat center center/cover;
+}
+#d10{
+    background: url(../images/argentina.jpg) no-repeat center center/cover;
+}
+#d11{
+    background: url(../images/colombia.jpg) no-repeat center center/cover;
+}
+#d12{
+    background: url(../images/england.jpg) no-repeat center center/cover;
+}
+#d13{
+    background: url(../images/mexico.jpg) no-repeat center center/cover;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
